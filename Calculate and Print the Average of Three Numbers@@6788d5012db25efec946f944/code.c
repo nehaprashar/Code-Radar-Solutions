@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    char name[50];
-    int age;
-    char hobby[50];
+    int num1, num2, num3;
+    float average;
 
-    scanf("%s %d %s", name, &age, hobby);
+    scanf("%d %d %d", &num1, &num2, &num3);
 
-    printf("Name: %s\n", name);
-    printf("Age: %d\n", age);
-    printf("Hobby: %s\n", hobby);
+    average = (num1 + num2 + num3) / 3.0;
+
+    printf("Average: %.2f\n", average);
 
     return 0;
 }
