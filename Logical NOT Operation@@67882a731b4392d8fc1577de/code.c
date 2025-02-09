@@ -1,3 +1,4 @@
+@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
@@ -10,3 +11,6 @@ int main() {
         printf("True\n");
     }
     else {
+        printf("False\n");
+    }
+    return 0;
