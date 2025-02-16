@@ -3,10 +3,10 @@
 int main() {
     char grade;  
 
-    scanf("%c", &grade);  
+    scanf(" %c", &grade);  
 
     if (grade == 'A') {
-        printf("Excellent\n");
+        printf("Excellent");
     }
     else if (grade == 'B') {
         printf("Good");
@@ -21,7 +21,8 @@ int main() {
         printf("Fail");
     }
     else {
-        print("Invalid grade");
+        printf("Invalid grade\n");  
     }
+
     return 0;
 }
