@@ -1,22 +1,19 @@
 #include <stdio.h>
-
 int main() {
-    int marks;
-    
-    scanf("%d", &marks);
-
-    if (marks >=90) {
-        grade = 'A';
-    } else if (marks >=80) {
-        grade = 'B';
-    } else if (marks >=70) {
-        grade = 'C';
-    } else if (marks >=60) {
-        grade = 'D'
-    } else {
-        grade = 'F';
-    }    
-    printf("Grade: %c\n", grade);
-
-    return 0;
+    int num1;
+    scanf("%d", &num1); 
+    if (num1 >=90) {
+        printf("A");
+    } else if (num1 >= 80 && num1 < 90) {
+        printf("B");
+    } else if (num1 >= 70 && num1 < 80) {
+        printf("C");
+    }
+    else if (num1 >= 60 && num1 < 70) {
+        printf("D");
+    }
+    else {
+        printf("F");
+    }
+return 0;
 }
