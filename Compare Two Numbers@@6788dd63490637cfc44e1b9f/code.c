@@ -5,10 +5,10 @@ int main() {
     if (num1 == num2 ) {
         printf("Equal");
     } else if (num1 > num2) {
-     printf("First");
+        printf("First");
     } 
     else {
-        printf("Second");
+         printf("Second");
     }
 return 0;
 }
