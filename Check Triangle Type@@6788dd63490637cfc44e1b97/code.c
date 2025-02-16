@@ -9,7 +9,7 @@ int main() {
       else {
         printf("scalene")
       }  
-    }
+    
     return 0;
     
 }
