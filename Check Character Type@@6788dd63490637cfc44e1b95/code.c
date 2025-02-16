@@ -12,7 +12,7 @@ void checkCharacter(char ch) {
         printf("Digit");
     } 
     else {
-        printf("Vowel");
+        printf("Special Character");
     }
 }
 
