@@ -2,9 +2,7 @@
 
 int main() {
     int marks;
-    char grade;
-
-    printf("Enter the marks: ")
+    
     scanf("%d", &marks);
 
     if (marks >=90) {
