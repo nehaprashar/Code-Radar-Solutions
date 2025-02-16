@@ -1,13 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    char Traffic light[100];
-    scanf("%c", &Traffic light );
+    char light;  
 
-    if (Traffic light == R) printf("Stop");
-    else if (Traffic light == G) printf("GO");
-    
-    else printf("Slow Down");
+    scanf(" %c", &light);  
+
+    if (light == 'R') {
+        printf("Stop");
+    }
+    else if (light == 'G') {
+        printf("Go");
+    }
+    else if (light == 'Y') {
+        printf("Slow Down");
+    }
+    else {
+        printf("Invalid input");  
+    }
 
     return 0;
 }
